@@ -21,4 +21,3 @@ Support Vector Machine
 
 - Random Forest Classifier - highest accuracy
 
-# ----------------------------
