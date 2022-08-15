@@ -1,5 +1,8 @@
 # web-phishing-detection
 
+---------------------
+** add the html into templates folder
+---------------------
 Project Flow
 
 - Download the dataset.
