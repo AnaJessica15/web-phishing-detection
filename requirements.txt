@@ -8,7 +8,6 @@ numpy
 pickle5
 regex 
 tldextract
-scikit-learn
 sockets
 bs4
 whois
