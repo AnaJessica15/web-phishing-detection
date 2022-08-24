@@ -383,11 +383,11 @@ footer p {
   <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
   <header>
     <h2><a href="#">Catch tHe Phish !</a></h2>
-    <nav>
+    <!-- <nav>
       <li><a href="#">Tours</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
-    </nav>
+    </nav> -->
   </header>
 
   <section class="hero">
@@ -395,7 +395,7 @@ footer p {
     <div class="hero-content-area">
       <h1>Catch tHe Phish !</h1>
       <h3> -- Catch the Phishing Websites --</h3>
-      <a href="#" class="btn">Check it Out</a>
+      <a href="#" class="btn">Scroll Down to Check it Out</a>
     </div>
   </section>
 
@@ -457,12 +457,14 @@ footer p {
     <p>Phishers steal personal information and financial account details such as usernames and passwords, leaving YOU vulnerable in the online space.</p>
     <hr>
     <form action="/predict" method="post">
-      <input type="text" placeholder="url" name="url">
+      <input type="text" placeholder="URL" name="url">
      <a><button type="submit" class="btn">Find Out Now!</button></a> 
     </form>
   </section>
 
   <section class="contact">
+  <p class="title">{{ url }}</p>
+  <br><br>
   <h3 class="title">{{ pred_text }}</h4>
   </section>
 

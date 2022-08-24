@@ -22,7 +22,7 @@ def y_predict():
     # print(predic)
 
     result = predic[0]
-    if(result==1):
+    if(result == -1):
         pred = "You are safe!! This is a Legimate Website :)"
     else:
         pred = "You are in a wrong site. Be Cautious :("
